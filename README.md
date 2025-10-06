@@ -1,5 +1,5 @@
 # 10 AI
-Velkommen til den sidste øvelse og i dag skal vi lave vores egen chatbot på OpenAI's API. Få din gruppes API key af en af os.
+Velkommen til den sidste øvelse og i dag skal vi lave vores egen chatbot på OpenAI's API. Få din gruppes API key af en af os. Husk ikke at spamme den med spørgsmål, da vi kun har et begrænset antal credits. 
 
 ## Opsætning
 Start med at oprette et nyt react-native projekt med expo-cli. 
@@ -589,4 +589,6 @@ ChatScreen.js skulle nu gerne være done
 - [ ] `babel.config.js`
 - [ ] `GlobalStyles.js`
 - [ ] `.gitignore`
+
+Fedt nu skulle det gerne virke! STÆRKT! Du kan lege med styling eller prøve at ændre promptet
 
