@@ -24,6 +24,10 @@ Sluk herefter serveren og erstat jeres package.json dependencies med følgende:
     "react-native-gifted-chat": "^2.6.3",
     "react-native-reanimated": "~4.1.1"
   },
+  "private": true,
+  "devDependencies": {
+    "babel-preset-expo": "^54.0.3"
+  }
 ```
 
 Kør herefter `npm install` i jeres projekt, så I downloader de nødvendige pakker.
