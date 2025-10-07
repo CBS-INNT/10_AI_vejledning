@@ -231,6 +231,18 @@ module.exports = {
 };
 ```
 
+Forklaring på koden:
+Babel er et værktøj, der oversætter moderne JavaScript-kode (ES6+, JSX osv.) til ældre JavaScript, så den kan køre på alle enheder og browsere.
+- babel-preset-expo: kommer fra Expo, og indeholder alt det nødvendige for at køre React Native med moderne JavaScript
+- module:react-native-dotenv: er det plugin, der lader dig bruge: `import { OPENAI_API_KEY } from "@env";`
+
+**Tip**
+Hvis det ikke fungerer, kan du prøve at installere følgende i terminalen
+```javascript
+npm install babel-preset-expo --save-dev
+npm install react-native-dotenv
+```
+
 ## HomeScreen.js
 Før vi kan arbejde med vores chatbot, skal vi have lavet en home screen, hvor vi kan vælge at starte en chat.
 
