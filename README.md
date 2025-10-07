@@ -309,7 +309,7 @@ return (
         <Text style={GlobalStyles.homeHelp}>How Can I help you?</Text>
 ```
 8. Opret en FlatList i tredje view
-``javascript
+```javascript
       <???
             data={faces}
             keyExtractor={(item) => String(item.id)}
